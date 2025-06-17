@@ -1,0 +1,42 @@
+.list-container{
+    display: flex;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.logo-name{
+    flex-shrink: 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #824aaf;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin: 0px;
+  padding: 7px;
+}
+
+.commentItem-container{
+    margin-left: 12px;
+}
+
+.para-name{
+    color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.para-commentText{
+     color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.hori-line{
+    border: 1px solid #cbd5e140;
+}
