@@ -28,7 +28,7 @@ const Comments = () =>{
     <form className='form-style' onSubmit={onAddSubmit}>
       <input className='comment-input' type="text" placeholder="Your name" value={name} onChange={onChangename} />
       <textarea className='text-area-comment' placeholder="Your comment" rows="6" value= {commentText} onChange={onChangecomment} />
-      <button className='button-comment' type="submit">Comment</button>
+      <button className='button-comment'   type="submit">Comment</button>
     </form>
     <div>
       {commentList.map((eachItem)=>(
